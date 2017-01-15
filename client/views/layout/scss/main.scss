@@ -1,0 +1,99 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:#f8f8f8;
+}
+* {
+  line-height:1;
+}
+.row-fluid {
+  position:relative;
+  width:100%;
+  display:block;
+  &:after,&:before {
+    display:block;
+    clear:both;
+    content:' ';
+    width:100%;
+  }
+}
+.defaultSection {
+  padding:70px 0px;
+}
+.defaultMargin {
+  &.b {
+    margin-bottom:30px;
+  }
+  &.t {
+    margin-top:30px;
+  }
+  &.n {
+    margin:0px !important;
+  }
+}
+.defaultSectionTitle {
+  clear:both;
+  width:100%;
+  font-size:28px;
+  text-transform:uppercase;
+  font-weight:300;
+}
+.defaultSectionSeparator {
+  display:block;
+  clear:both;
+  content:' ';
+  height:2px;
+  width:100px;
+  background-color:#202020;
+  margin:15px 0px;
+}
+.defaultButton {
+  padding:15px;
+  border:1px solid #fff;
+  color:#fff;
+  text-decoration:none;
+  font-size:18px;
+  display:inline-block;
+  clear:both;
+  text-align:center;
+  font-weight:300;
+  text-transform:uppercase;
+  background-color:transparent;
+  &.w {
+    width:100%;
+  }
+  &.revert {
+    color:#202020;
+    border-color:#202020;
+  }
+  &:hover,&:focus {
+    text-decoration:none;
+    color:inherit;
+  }
+}
+.defaultForm {
+  font-size:18px;
+  label {
+    text-transform:uppercase;
+    font-weight:300;
+    color:#202020;
+    padding:5px 0px;
+    display:block;
+  }
+  input,textarea {
+    max-width:100%;
+    width:100%;
+    display:block;
+    font-size:18px;
+    padding:15px;
+    font-weight:300;
+    color:#202020;
+    border-radius:0px;
+    border:1px solid #202020;
+  }
+
+}
+@media(min-width:576px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+/*https://themeforest.net/item/medicenter-medical-health-psd-template/6207597*/

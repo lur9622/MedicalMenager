@@ -1,0 +1,27 @@
+.navbar-toggle {
+  background-color:#42b3e5;
+  border-radius:0px;
+  .icon-bar {
+    background-color:#fff;
+  }
+}
+.navbar {
+  background-color:#fff;
+  padding:20px 0px;
+  margin-bottom:0px;
+  a {
+    color:#000;
+    cursor:pointer;
+  }
+  .nav {
+    font-weight:300;
+    text-transform:uppercase;
+    a {
+      transition:0.3s;
+      &.active,&:hover {
+        color:#fff;
+        background-color:#42b3e5;
+      }
+    }
+  }
+}

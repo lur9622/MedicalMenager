@@ -1,0 +1,55 @@
+.sliderSection {
+  .carousel-indicators{
+    position:relative;
+    margin:0px;
+    width:100%;
+    padding:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+  }
+  .sliderBox {
+    padding:20px 30px;
+    color:#fff;
+    cursor:pointer;
+    a {
+      color:#fff;
+      text-decoration:none;
+    }
+    &.a {
+      background-color:#42b3e5;
+    }
+    &.b {
+      background-color:#0384ce;
+    }
+    &.c {
+      background-color:#3156a3;
+    }
+    &.d {
+      background-color:#202020;
+    }
+    .mainHeader {
+      font-size:24px;
+      margin:0px;
+    }
+    .secondHeader{
+      font-size:16px;
+      margin:0px;
+    }
+  }
+  background-size:cover;
+  background-position:top;
+  background-image:url("images/example.jpg");
+  .sliderTitleSection{
+    margin-top:100px;
+    margin-bottom:100px;
+    color:#fff;
+    .mainTitle{
+      font-size:72px;
+      margin-bottom:30px;
+    }
+    .subTitle{
+      font-size:32px;
+    }
+  }
+}

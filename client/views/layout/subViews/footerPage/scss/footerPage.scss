@@ -1,0 +1,60 @@
+.defaultFooter {
+  background-color:#202020;
+  .footerBoxTop {
+    padding:20px 30px;
+    color:#fff;
+    &.a {
+      background-color:#42b3e5;
+    }
+    &.b {
+      background-color:#0384ce;
+    }
+    &.c {
+      background-color:#3156a3;
+    }
+    .mainHeader {
+      font-size:24px;
+      margin:0px;
+    }
+    .secondHeader{
+      font-size:16px;
+      margin:0px;
+    }
+  }
+  .footerBox {
+    margin-bottom:15px;
+    .mainHeader{
+      color: #fff;
+      padding: 15px 0px;
+      margin: 0px;
+      font-size: 20px;
+    }
+  }
+  .tinyFooter {
+    padding:20px 0px;
+    border-top:1px solid #353535;
+    a,span {
+      color:#575757;
+    }
+  }
+  .footerSmallSeparator {
+    background-color:#3b97c0;
+    height:2px;
+    width:100px;
+    display:block;
+  }
+  .mainContent {
+    margin-top:15px;
+    font-size:14px;
+    color:#575757;
+    font-weight:400;
+  }
+  .mediaFooterBox {
+    i {
+      display:inline-block;
+      color:#575757;
+      margin-right:5px;
+      font-size:18px;
+    }
+  }
+}
