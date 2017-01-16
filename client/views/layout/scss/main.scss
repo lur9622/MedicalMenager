@@ -23,6 +23,9 @@ body {
   &.b {
     margin-bottom:30px;
   }
+  &.smallT {
+    margin-top:15px;
+  }
   &.t {
     margin-top:30px;
   }
@@ -68,6 +71,10 @@ body {
   &:hover,&:focus {
     text-decoration:none;
     color:inherit;
+  }
+  &.disabled {
+    border-color:#ccc;
+    color:#ccc;
   }
 }
 .defaultForm {

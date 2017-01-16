@@ -15,8 +15,26 @@
           <li><a href="{{pathFor 'main'}}">Strona Główna</a></li>
           <li><a href="{{pathFor 'aboutUs'}}">O nas</a></li>
           <li><a href="{{pathFor 'contact'}}">Kontakt</a></li>
-          <li><a href="{{pathFor 'services'}}">Usługi</a></li>
-          <li><a href="{{pathFor 'prices'}}">Cennik</a></li>
+          {{#if currentUser}}
+            <li><a href="#">{{email}}</a></li>
+            <li><a href="#" class="logout">Wyloguj</a></li>
+          {{else}}
+            <li><a href="{{pathFor 'prices'}}">Logowanie</a></li>
+            <li><a href="{{pathFor 'services'}}">Usługi</a></li>
+            <li><a href="{{pathFor 'prices'}}">Cennik</a></li>
+          {{/if}}
+         <!-- <li>
+            <div class="dropdownStyled">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                <i class="fa fa-angle-down"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dołącz do nas</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+         </li>-->
         </ul>
       </div>
     </div>

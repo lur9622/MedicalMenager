@@ -5,6 +5,14 @@
     background-color:#fff;
   }
 }
+.dropdownStyled {
+  button {
+    background:0px;
+    padding: 15px;
+    border-color: transparent;
+    text-transform: uppercase;
+  }
+}
 .navbar {
   background-color:#fff;
   padding:20px 0px;
@@ -17,6 +25,7 @@
     font-weight:300;
     text-transform:uppercase;
     a {
+      padding:18px 10px;
       transition:0.3s;
       &.active,&:hover {
         color:#fff;
