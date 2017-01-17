@@ -8,6 +8,9 @@
     bottom:0px;
     right:0px;
   }
+  .carousel-control {
+    background-image:none !important;
+  }
   .sliderBox {
     padding:20px 30px;
     color:#fff;
@@ -29,8 +32,10 @@
       background-color:#202020;
     }
     .mainHeader {
-      font-size:24px;
-      margin:0px;
+      font-size: 18px;
+      margin: 0px;
+      font-weight: bold;
+      text-transform: uppercase;
     }
     .secondHeader{
       font-size:16px;
@@ -39,7 +44,7 @@
   }
   background-size:cover;
   background-position:top;
-  background-image:url("images/example.jpg");
+  background-image:url("images/zdjecie4.jpg");
   .sliderTitleSection{
     margin-top:100px;
     margin-bottom:100px;
@@ -51,5 +56,8 @@
     .subTitle{
       font-size:32px;
     }
+  }
+  .carousel-inner{
+    min-height:510px;
   }
 }

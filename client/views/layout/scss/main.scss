@@ -49,6 +49,18 @@ body {
   background-color:#202020;
   margin:15px 0px;
 }
+.defaultWhiteSectionSeparator {
+  display:block;
+  clear:both;
+  content:' ';
+  height:2px;
+  width:100px;
+  background-color:#fff;
+  margin:15px 0px;
+  &.w {
+    width:100%;
+  }
+}
 .defaultButton {
   padding:15px;
   border:1px solid #fff;

@@ -1,5 +1,5 @@
 <template name="navPage">
-  <nav class="navbar">
+  <nav class="navbar" data-scroll="top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -19,9 +19,9 @@
             <li><a href="#">{{email}}</a></li>
             <li><a href="#" class="logout">Wyloguj</a></li>
           {{else}}
-            <li><a href="{{pathFor 'login'}}">Logowanie</a></li>
             <li><a href="{{pathFor 'services'}}">Usługi</a></li>
             <li><a href="{{pathFor 'prices'}}">Cennik</a></li>
+            <li><a href="{{pathFor 'login'}}">Logowanie</a></li>
           {{/if}}
          <!-- <li>
             <div class="dropdownStyled">

@@ -2,27 +2,93 @@
 <section class="sliderSection">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        <div class="item active a">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
                 <div class="sliderTitleSection">
-                  <p class="mainTitle">Top notch experience</p>
-                  <p class="subTitle">Przykładowy tekst i dłużesz zdjęcie he-he i hehehe</p>
+                  <p class="mainTitle">Elektroniczne recepty</p>
+                  <p class="subTitle">Bez problemów zrealizujesz receptę.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="item">
+        <div class="item b">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
                 <div class="sliderTitleSection">
-                  <p class="mainTitle">Top notch experience</p>
-                  <p class="subTitle">Przykładowy tekst i dłużesz zdjęcie he-he i hehehe</p>
+                  <p class="mainTitle">Bezpłatny dostęp</p>
+                  <p class="subTitle">Jako użytkownik masz nieograniczony bezpłatny dostęp</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="item c">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="sliderTitleSection">
+                  <p class="mainTitle">Systemy zarządzania placówkami.</p>
+                  <p class="subTitle">Lepsza organizacja pracy apteki, przychodni i szpitala.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item d">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="sliderTitleSection">
+                  <p class="mainTitle">Połączenie z dystrybutorami leków. </p>
+                  <p class="subTitle">Szybsze dostawy leków do aptek i szpitali</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottomSliderBoxes">
+        <div class="container">
+          <div class="row-fluid">
+            <div class="col-md-3 sliderBox a">
+              <a data-target="#myCarousel" data-slide-to="0" class="active">
+                <p class="mainHeader">System<br>dla<br>pacjentow</p>
+                <div class="defaultWhiteSectionSeparator w"></div>
+                <p class="secondHeader">
+                  <a href="{{pathFor 'patientRegisterForm'}}">Zarejestruj się</a>
+                </p>
+              </a>
+            </div>
+            <div class="col-md-3 sliderBox b">
+              <a data-target="#myCarousel" data-slide-to="1">
+                <p class="mainHeader">System<br>dla<br>szpitala</p>
+                <div class="defaultWhiteSectionSeparator w"></div>
+                <p class="secondHeader">
+                  <a href="{{pathFor 'services'}}">Dowiedz się więcej</a>
+                </p>
+              </a>
+            </div>
+            <div class="col-md-3 sliderBox c">
+              <a data-target="#myCarousel" data-slide-to="2">
+                <p class="mainHeader">System<br>dla<br>przychodni</p>
+                <div class="defaultWhiteSectionSeparator w"></div>
+                <p class="secondHeader">
+                  <a href="{{pathFor 'services'}}">Dowiedz się więcej</a>
+                </p>
+              </a>
+            </div>
+            <div class="col-md-3 sliderBox d">
+              <a data-target="#myCarousel" data-slide-to="3">
+                <p class="mainHeader">System dla dystrybutorów leków</p>
+                <div class="defaultWhiteSectionSeparator w"></div>
+                <p class="secondHeader">
+                  <a href="{{pathFor 'patientRegisterForm'}}">Zarejestruj swoją firmę</a>
+                </p>
+              </a>
             </div>
           </div>
         </div>
@@ -36,36 +102,6 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-      <div class="bottomSliderBoxes">
-        <div class="container">
-          <div class="row-fluid">
-            <div class="col-md-3 sliderBox a">
-              <a data-target="#myCarousel" data-slide-to="0" class="active">
-                <p class="mainHeader">System dla pacjentow</p>
-                <p class="secondHeader">System dla pacjentow</p>
-              </a>
-            </div>
-            <div class="col-md-3 sliderBox b">
-              <a data-target="#myCarousel" data-slide-to="1">
-                <p class="mainHeader">System dla pacjentow</p>
-                <p class="secondHeader">System dla pacjentow</p>
-              </a>
-            </div>
-            <div class="col-md-3 sliderBox c">
-              <a data-target="#myCarousel" data-slide-to="1">
-                <p class="mainHeader">System dla pacjentow</p>
-                <p class="secondHeader">System dla pacjentow</p>
-              </a>
-            </div>
-            <div class="col-md-3 sliderBox d">
-              <a data-target="#myCarousel" data-slide-to="1">
-                <p class="mainHeader">System dla pacjentow</p>
-                <p class="secondHeader">System dla pacjentow</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
